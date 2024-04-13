@@ -1,0 +1,109 @@
+body{
+
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+     
+
+/*Navbar*/
+
+.btn-carrinho{
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 0;
+}
+
+.edita-navbar{
+    z-index: 9999;
+}
+
+span{
+    color: aqua;
+}
+
+.edit-dropdown li a:hover{
+    background: #ccc;
+}
+
+
+
+/*Busca*/
+.edit-busca{
+    background: #2c2c2c;
+    position: relative;
+}
+
+
+
+
+.opcoes h2{
+    color: #fff;    
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.opcoes ul {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.opcoes ul li{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.opcoes ul li img{
+    height: 200px;
+    width: 200px;
+    border-radius: 999px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.opcoes ul li img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(14, 189, 189);
+}
+
+.edit-busca h2{
+    color: rgb(14, 189, 189) ;  
+}
+
+/*Promoção*/
+
+.edit-promocao{
+    background-color: #ffffffe7;
+}
+
+
+h1{
+    margin: 0 auto;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.rodape{
+    background-color: #2c2c2c;
+}
+
+/*Imagem*/
+
+.modal{
+    margin-top: 55px;
+}
+
+
+.modal img{
+    width: 320px;
+    
+}
